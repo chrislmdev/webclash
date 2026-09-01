@@ -4,9 +4,13 @@ Endless mobile web-swinging game proof of concept for Unity. The floor is lava �
 
 ## Quick start
 
-1. Open this repository as a Unity 2022 LTS+ project.
-2. Install dependencies when prompted (Input System, TextMeshPro).
-3. Follow **[SCENE_SETUP.md](SCENE_SETUP.md)** to build the prototype scene.
+1. Install **Unity Hub** and **Unity 2022.3 LTS** (or newer).
+2. In Unity Hub: **Add → Add project from disk**.
+3. Select the repo root folder (`webclash` — the one that contains `Assets` and `ProjectSettings`).
+4. Open the project. Unity will import packages and generate a `Library/` folder on first launch.
+5. Follow **[SCENE_SETUP.md](SCENE_SETUP.md)** to build the prototype scene.
+
+> **Note:** Unity Hub requires `ProjectSettings/ProjectVersion.txt` to recognize a folder as a project. This repo includes that file. If Hub still says "No Unity project found", make sure you selected `j:\git\webclash` and not a parent folder.
 
 ## Scripts
 
